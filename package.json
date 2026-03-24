@@ -1,0 +1,32 @@
+{
+  "name": "@vouchid/sdk",
+  "version": "1.0.1",
+  "description": "Official VouchID SDK. register agents, manage tokens, verify identities",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "lint": "node --check index.js"
+  },
+  "keywords": [
+    "agentid",
+    "ai",
+    "agents",
+    "identity",
+    "auth",
+    "sdk",
+    "mcp",
+    "vouchid"
+  ],
+  "author": "Stillallusion",
+  "license": "MIT"
+}
